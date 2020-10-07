@@ -14,7 +14,7 @@ function divide(){
 
 }
 add(a+b)(
-  var a= 5 
+  var a= 5
   var b= 12
-  return (a+=b)
+  return (a+b)
 )
