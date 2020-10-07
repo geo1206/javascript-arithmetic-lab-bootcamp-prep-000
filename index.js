@@ -29,7 +29,7 @@ function decrement(n){
 }
 
 function makeInt(n){
-  var n ="nonsense"
+  var n ="1.2"+"nonsense"
   parseInt("1,2", n)
   return(n)
 }
