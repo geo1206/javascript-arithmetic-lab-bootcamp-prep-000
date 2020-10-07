@@ -29,13 +29,13 @@ function decrement(n){
 }
 
 function makeInt(n){
-  var n ="1.2"+"nonsense"
-  parseInt("1,2", n)
-  return(n)
+  var n ="1.2"
+  parseInt("1,2", n, "nonsense")
+  return(n, "1.2")
 }
 
 function preserveDecimal(n){
   var n= "1.567"
   parseFloat(n, "4.5", "nonsense")
-  return(n)
+  return(n, "4.5")
 }
