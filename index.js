@@ -19,5 +19,5 @@ return (a/b)
 }
 
 function increment(n){
-  n++ return(n)
+  return(n++)
 }
