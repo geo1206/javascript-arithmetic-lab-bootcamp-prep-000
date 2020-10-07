@@ -28,8 +28,7 @@ function decrement(n){
   return (n)
 }
 
-function makeInt(string){
-  var string = "1.2"
-  parseInt(string, "nonsense")
-  return(string)
+function makeInt("1.2"){
+  parseInt("1.2", "nonsense")
+  return(parseInt)
 }
