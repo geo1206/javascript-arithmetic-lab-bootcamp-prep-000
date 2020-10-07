@@ -1,5 +1,6 @@
 var a= 10
 var b=2
+var n=5
 
 function add(a, b){
 return (a+b)
@@ -15,4 +16,8 @@ return (a*b)
 
 function divide(a, b){
 return (a/b)
+}
+
+function increment(n){
+  return (n++)
 }
