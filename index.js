@@ -1,6 +1,6 @@
 var a= 10
 var b=2
-
+var n=4
 
 function add(a, b){
 return (a+b)
@@ -18,6 +18,6 @@ function divide(a, b){
 return (a/b)
 }
 
-function increment(4){
-  return(4++)
+function increment(n){
+  return(`${n}++`)
 }
