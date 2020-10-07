@@ -27,3 +27,5 @@ function decrement(n){
   n--
   return (n)
 }
+
+parseInt("nonsense", 10)
